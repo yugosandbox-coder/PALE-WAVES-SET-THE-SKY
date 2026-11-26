@@ -65,4 +65,4 @@ document.addEventListener("click",e=>{const t=e.target;
 // ゲームのそうさ（スワイプなど）がせつめいのうえでもはんのうしないようにする
 for(const n of["pointerdown","touchstart","touchmove","mousedown"])box.addEventListener(n,e=>e.stopPropagation(),{passive:true});
 })();
-//zz8
+//zz9
